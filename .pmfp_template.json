@@ -38,6 +38,16 @@
             "description": "grpc的客户端定义",
             "default_path": "{{ project_name }}/sdk"
         },
+        "sync_sdk_interceptor": {
+            "source": "cp_py_grpc//sync_sdk",
+            "description": "grpc的客户端定义",
+            "default_path": "{{ project_name }}/sdk"
+        },
+        "sync_serv_interceptor": {
+            "source": "cp_py_grpc//sync_sdk",
+            "description": "grpc的客户端定义",
+            "default_path": "{{ project_name }}/sdk"
+        },
         "sync_serv": {
             "source": "cp_py_grpc//sync_serv",
             "description": "grpc的服务端定义",
@@ -47,6 +57,11 @@
             "source": "cp_py_grpc//service_schema",
             "description": "项目定义service的proto文件",
             "default_path": "pbschema/{{ serv_name }}.proto"
+        },
+        "main": {
+            "source": "cp_py_grpc//main",
+            "description": "项目入口文件",
+            "default_path": "{{ project_name }}/__main__.py"
         },
         "docker-compose": {
             "source": "cp_dockercompose//server_standalone",
