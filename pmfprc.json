@@ -1,0 +1,9 @@
+{
+    "added_components": {
+        "cp_dockercompose//server_standalone": "docker-compose.yml",
+        "cp_py_grpc//service_schema": "pbschema/echo.proto",
+        "cp_py_grpc//sync_sdk": "tp_py_grpc_sync/sdk",
+        "cp_py_grpc//sync_serv": "tp_py_grpc_sync/serv"
+    },
+    "env": "venv"
+}
