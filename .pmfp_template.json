@@ -66,7 +66,7 @@
         "dockerfile":{
             "source": "cp_dockerfiles//python_grpc_gen_dockerfile",
             "description": "构造python的grpc的dockerfile",
-            "default_path": "dockerfile.yml"
+            "default_path": "dockerfile"
         },
         "docker-compose": {
             "source": "cp_dockercompose//server_standalone",
