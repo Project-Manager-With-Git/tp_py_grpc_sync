@@ -19,7 +19,8 @@
         "mypy >= 0.800",
         "autopep8 >= 1.5.6",
         "pylint >= 2.8.0",
-        "pydocstyle>=6.0.0"
+        "pydocstyle>=6.0.0",
+        "types-protobuf>=3.19.6"
     ],
     "template_keys": {
         "serv_name": {
