@@ -5,13 +5,13 @@
     "template_type": "socket",
     "requires": [
         "pyproxypattern >= 0.0.1",
-        "grpcio >= 1.38.0",
+        "grpcio >= 1.43.0",
         "protobuf >= 3.17.3",
-        "grpcio-health-checking >= 1.38.0",
-        "grpcio-reflection >= 1.38.0",
-        "grpcio-admin >= 1.38.0",
+        "grpcio-health-checking >= 1.43.0",
+        "grpcio-reflection >= 1.43.0",
+        "grpcio-admin >= 1.43.0",
         "schema_entry >= 0.1.5",
-        "grpcio-tools >= 1.38.0",
+        "grpcio-tools >= 1.43.0",
         "pyloggerhelper >= 0.0.3"
     ],
     "test_requires": [
@@ -34,32 +34,32 @@
     },
     "components": {
         "sync_sdk": {
-            "source": "cp_py_grpc@v0.0.1//sync_sdk",
+            "source": "cp_py_grpc//sync_sdk",
             "description": "grpc的客户端定义",
             "default_path": "{{ project_name }}/sdk"
         },
         "sync_sdk_interceptor": {
-            "source": "cp_py_grpc@v0.0.1//sync_sdk_interceptor",
+            "source": "cp_py_grpc//sync_sdk_interceptor",
             "description": "grpc的客户端定义",
             "default_path": "{{ project_name }}/sdk/interceptor"
         },
         "sync_serv": {
-            "source": "cp_py_grpc@v0.0.1//sync_serv",
+            "source": "cp_py_grpc//sync_serv",
             "description": "grpc的服务端定义",
             "default_path": "{{ project_name }}/serv"
         },
         "sync_serv_interceptor": {
-            "source": "cp_py_grpc@v0.0.1//sync_serv_interceptor",
+            "source": "cp_py_grpc//sync_serv_interceptor",
             "description": "grpc的客户端定义",
             "default_path": "{{ project_name }}/serv/interceptor"
         },
         "service_schema": {
-            "source": "cp_py_grpc@v0.0.1//service_schema",
+            "source": "cp_py_grpc//service_schema",
             "description": "项目定义service的proto文件",
             "default_path": "pbschema/{{ serv_name }}.proto"
         },
         "main": {
-            "source": "cp_py_grpc@v0.0.1//main",
+            "source": "cp_py_grpc//main",
             "description": "项目入口文件",
             "default_path": "{{ project_name }}/__main__.py"
         },
