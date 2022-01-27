@@ -35,32 +35,32 @@
     },
     "components": {
         "sync_sdk": {
-            "source": "cp_py_grpc//sync_sdk",
+            "source": "cp_py_grpc@dev//sync_sdk",
             "description": "grpc的客户端定义",
             "default_path": "{{ project_name }}/sdk"
         },
         "sync_sdk_interceptor": {
-            "source": "cp_py_grpc//sync_sdk_interceptor",
+            "source": "cp_py_grpc@dev//sync_sdk_interceptor",
             "description": "grpc的客户端定义",
             "default_path": "{{ project_name }}/sdk/interceptor"
         },
         "sync_serv": {
-            "source": "cp_py_grpc//sync_serv",
+            "source": "cp_py_grpc@dev//sync_serv",
             "description": "grpc的服务端定义",
             "default_path": "{{ project_name }}/serv"
         },
         "sync_serv_interceptor": {
-            "source": "cp_py_grpc//sync_serv_interceptor",
+            "source": "cp_py_grpc@dev//sync_serv_interceptor",
             "description": "grpc的客户端定义",
             "default_path": "{{ project_name }}/serv/interceptor"
         },
         "service_schema": {
-            "source": "cp_py_grpc//service_schema",
+            "source": "cp_py_grpc@dev//service_schema",
             "description": "项目定义service的proto文件",
             "default_path": "pbschema/{{ serv_name }}.proto"
         },
         "main": {
-            "source": "cp_py_grpc//main",
+            "source": "cp_py_grpc@dev//main",
             "description": "项目入口文件",
             "default_path": "{{ project_name }}/__main__.py"
         },
