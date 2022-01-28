@@ -65,12 +65,12 @@
             "default_path": "{{ project_name }}/__main__.py"
         },
         "dockerfile":{
-            "source": "cp_dockerfiles@v0.0.1//python_grpc_gen_dockerfile",
+            "source": "cp_dockerfiles@dev//python_grpc_gen_dockerfile",
             "description": "构造python的grpc的dockerfile",
             "default_path": "dockerfile"
         },
         "docker-compose": {
-            "source": "cp_dockercompose@v0.0.2//server_standalone",
+            "source": "cp_dockercompose@dev//server_standalone",
             "description": "通用的服务使用的dockercompose,适用于调试",
             "default_path": "docker-compose.yml"
         }
